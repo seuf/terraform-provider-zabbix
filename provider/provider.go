@@ -28,6 +28,7 @@ func Provider() terraform.ResourceProvider {
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
+			"zabbix_action":     resourceZabbixAction(),
 			"zabbix_host":       resourceZabbixHost(),
 			"zabbix_host_group": resourceZabbixHostGroup(),
 		},
