@@ -3,9 +3,10 @@ package provider
 import (
 	"errors"
 	"fmt"
-	"github.com/dainis/zabbix"
-	"github.com/hashicorp/terraform/helper/schema"
 	"log"
+
+	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/seuf/zabbix-1"
 )
 
 var HOST_INTERFACE_TYPES = map[string]zabbix.InterfaceType{

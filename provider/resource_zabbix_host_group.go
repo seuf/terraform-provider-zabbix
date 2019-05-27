@@ -1,9 +1,11 @@
 package provider
 
 import (
-	"github.com/dainis/zabbix"
-	"github.com/hashicorp/terraform/helper/schema"
 	"log"
+
+	"github.com/seuf/zabbix-1"
+
+	"github.com/hashicorp/terraform/helper/schema"
 )
 
 func resourceZabbixHostGroup() *schema.Resource {
