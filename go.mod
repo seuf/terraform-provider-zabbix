@@ -1,4 +1,4 @@
-module github.com/dainis/terraform-provider-zabbix
+module github.com/seuf/terraform-provider-zabbix
 
 go 1.12
 
