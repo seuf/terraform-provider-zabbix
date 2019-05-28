@@ -1,4 +1,4 @@
-package provider
+package zabbix
 
 import (
 	"errors"
@@ -24,7 +24,9 @@ var OPERATION_TYPE = map[string]zabbix.OperationType{
 	"set_host_inventory_mode": 10,
 }
 
-var EVAL_TYPES = map[string]zabbix.EVAL_TYPES
+var EVAL_TYPES = map[string]zabbix.EVAL_TYPES{
+
+}
 
 
 func resourceZabbixAction() *schema.Resource {

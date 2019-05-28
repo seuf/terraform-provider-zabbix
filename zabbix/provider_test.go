@@ -1,4 +1,4 @@
-package provider
+package zabbix
 
 import (
 	"github.com/hashicorp/terraform/helper/schema"

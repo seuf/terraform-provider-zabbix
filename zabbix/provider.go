@@ -1,4 +1,4 @@
-package provider
+package zabbix
 
 import (
 	"github.com/seuf/zabbix-1"
